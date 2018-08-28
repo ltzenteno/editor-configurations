@@ -10,6 +10,8 @@ syntax on
 set number
 set encoding=UTF-8
 
+set hlsearch
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
