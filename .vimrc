@@ -1,12 +1,9 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set file type
 filetype plugin on
-" set syntax on
 syntax on
 
-"set line numbers
 set number
 set encoding=UTF-8
 
@@ -38,7 +35,6 @@ Plugin 'tfnico/vim-gradle'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'othree/html5.vim'
 Plugin 'flazz/vim-colorschemes'
-" dev icons plugin
 Plugin 'ryanoasis/vim-devicons'
 
 " All of your Plugins must be added before the following line
@@ -63,6 +59,8 @@ autocmd FileType javascript set formatprg=prettier\ --stdin
 " color scheme
 colorscheme solarized
 
+" yank to clipboard
+map <C-c> y:e ~/customclipboard<CR>P:w !pbcopy<CR><CR>:bdelete!<CR>
 
 let g:javascript_plugin_flow = 1
 let g:jsx_ext_required = 0
