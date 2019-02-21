@@ -57,6 +57,7 @@ let g:airline_powerline_fonts = 1
 autocmd vimenter * NERDTree
 autocmd FileType javascript set formatprg=prettier\ --stdin
 " color scheme
+set background=dark
 colorscheme solarized
 
 " yank to clipboard
@@ -65,3 +66,5 @@ map <C-c> y:e ~/customclipboard<CR>P:w !pbcopy<CR><CR>:bdelete!<CR>
 let g:javascript_plugin_flow = 1
 let g:jsx_ext_required = 0
 
+" mouse click navigation
+:set mouse=a
