@@ -112,6 +112,13 @@ prompt_context() {
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
 
+# Apache Kafka aliases
+#export KAFKA_HOME="/Users/zenteno/Documents/brokers/kafka_2.12-2.0.0"
+#alias zookeeper-start="$KAFKA_HOME/bin/zookeeper-server-start.sh $KAFKA_HOME/config/zookeeper.properties"
+#alias kafka-start="$KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties"
+#alias kafka-consumer-console="$KAFKA_HOME/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic $1"
+#alias kafka-producer-console="$KAFKA_HOME/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic $1"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -119,4 +126,3 @@ export NVM_DIR="$HOME/.nvm"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/zenteno/.sdkman"
 [[ -s "/Users/zenteno/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/zenteno/.sdkman/bin/sdkman-init.sh"
-
