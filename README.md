@@ -8,3 +8,12 @@ create ~/.bash_profile
 `echo 'export SHELL=$(which zsh)' >> ~/.bash_profile`
 
 `echo 'exec $(which zsh) -l' >> ~/.bash_profile`
+
+see 
+
+1. https://medium.com/@dubistkomisch/how-to-actually-get-italics-and-true-colour-to-work-in-iterm-tmux-vim-9ebe55ebc2be
+
+2. https://alexpearce.me/2014/05/italics-in-iterm2-vim-tmux/
+
+
+
