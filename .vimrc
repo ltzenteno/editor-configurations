@@ -68,3 +68,9 @@ let g:jsx_ext_required = 0
 
 " mouse click navigation
 :set mouse=a
+
+"set leader key
+let mapleader = ","
+
+" toggle nerdtree
+nnoremap <leader>o :NERDTreeToggle<CR>
