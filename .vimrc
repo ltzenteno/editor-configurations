@@ -35,6 +35,7 @@ Plugin 'tfnico/vim-gradle'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'othree/html5.vim'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'ryanoasis/vim-devicons'
 
 " All of your Plugins must be added before the following line
@@ -58,7 +59,7 @@ autocmd vimenter * NERDTree
 autocmd FileType javascript set formatprg=prettier\ --stdin
 " color scheme
 set background=dark
-colorscheme solarized
+colorscheme mono_sw
 
 " yank to clipboard
 map <C-c> y:e ~/customclipboard<CR>P:w !pbcopy<CR><CR>:bdelete!<CR>
@@ -66,7 +67,7 @@ map <C-c> y:e ~/customclipboard<CR>P:w !pbcopy<CR><CR>:bdelete!<CR>
 let g:javascript_plugin_flow = 1
 let g:jsx_ext_required = 0
 
-" mouse click navigation
+" enable mouse
 :set mouse=a
 
 "set leader key
@@ -74,3 +75,8 @@ let mapleader = ","
 
 " toggle nerdtree
 nnoremap <leader>o :NERDTreeToggle<CR>
+
+set noswapfile
+
+" don't wrap lines
+set nowrap!
