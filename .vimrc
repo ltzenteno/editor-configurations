@@ -80,3 +80,7 @@ set noswapfile
 
 " don't wrap lines
 set nowrap!
+
+" NerdTree ^G before folder and file names in OSX terminal
+let g:NERDTreeNodeDelimiter = "\u00a0"
+
