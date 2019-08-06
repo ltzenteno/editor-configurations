@@ -48,3 +48,8 @@ echo 'exec $(which zsh) -l' >> ~/.bash_profile
 ### import `termnk.itermcolors` in iTerm2
 
 ![iTerm colors](/images/iterm_color.png)
+
+
+### Vim Cheatsheet
+
+![Cheatsheet](/images/vim-cheatsheet.jpg)
