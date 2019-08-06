@@ -16,5 +16,6 @@ see
 2. https://alexpearce.me/2014/05/italics-in-iterm2-vim-tmux/
 
 3. install zsh-syntax-highlighting
+
 https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 
