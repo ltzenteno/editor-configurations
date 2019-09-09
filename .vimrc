@@ -36,6 +36,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'othree/html5.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'leafoftree/vim-vue-plugin'
 Plugin 'ryanoasis/vim-devicons'
 
 " All of your Plugins must be added before the following line
@@ -59,7 +60,8 @@ autocmd vimenter * NERDTree
 autocmd FileType javascript set formatprg=prettier\ --stdin
 " color scheme
 set background=dark
-colorscheme mono_sw
+colorscheme gruvbox-material
+let g:airline_theme = 'gruvbox_material'
 
 " yank to clipboard
 map <C-c> y:e ~/customclipboard<CR>P:w !pbcopy<CR><CR>:bdelete!<CR>
