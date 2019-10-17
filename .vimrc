@@ -36,6 +36,8 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'othree/html5.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'xuyuanp/nerdtree-git-plugin'
+Plugin 'leafgarland/typescript-vim'
 Plugin 'leafoftree/vim-vue-plugin'
 Plugin 'ryanoasis/vim-devicons'
 
@@ -63,6 +65,8 @@ set background=dark
 colorscheme gruvbox-material
 let g:airline_theme = 'gruvbox_material'
 
+autocmd BufNewFile,BufRead *.ts set syntax=typescript
+
 " yank to clipboard
 map <C-c> y:e ~/customclipboard<CR>P:w !pbcopy<CR><CR>:bdelete!<CR>
 
@@ -85,4 +89,3 @@ set nowrap!
 
 " NerdTree ^G before folder and file names in OSX terminal
 let g:NERDTreeNodeDelimiter = "\u00a0"
-

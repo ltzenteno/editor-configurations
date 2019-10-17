@@ -1,0 +1,14 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+  name = NAME_LASTNAME
+  email = company@mail.com
+
+
+[includeIf "gitdir:/Users/ltzenteno/Documents/workspace/personal/"]
+  path = /Users/ltzenteno/Documents/workspace/personal/.gitconfig
+
+#############
+# in /personal/.gitconfig 
+# [user]
+#  email = personal@mail.com
