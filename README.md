@@ -4,6 +4,10 @@ https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-exp
 
 ### Steps
 
+0. Install `xcode-command-line-tools` with:
+
+        xcode-select --install
+
 1. Install brew and all these tools:
 
 ![homebrew](/images/brew.png)
@@ -22,7 +26,7 @@ echo 'exec $(which zsh) -l' >> ~/.bash_profile
 
 3. Install [Spaceship theme](https://denysdovhan.com/spaceship-prompt/)
 
-4. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+4. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md), also check [https://gist.github.com/dogrocker/1efb8fd9427779c827058f873b94df95](https://gist.github.com/dogrocker/1efb8fd9427779c827058f873b94df95) to install autosuggestions as well
 
 5. Copy `.tmux.conf` in home dir
 
@@ -51,6 +55,35 @@ echo 'exec $(which zsh) -l' >> ~/.bash_profile
 ![iTerm colors](/images/iterm_color.png)
 
 
+### install Victor Mono font for use in IDE / Text Editors
+
+[https://rubjo.github.io/victor-mono/](https://rubjo.github.io/victor-mono/)
+
+[https://youtrack.jetbrains.com/issue/JBR-1776](https://youtrack.jetbrains.com/issue/JBR-1776)
+
+### IntelliJ based IDE plugins
+
+![IntelliJ Plugins](/images/intellij_plugins.png)
+
 ### Vim Cheatsheet
 
 ![Cheatsheet](/images/vim-cheatsheet.jpg)
+
+### Languages
+
+- install sdkman [https://sdkman.io/](https://sdkman.io/)
+- install pyenv [https://realpython.com/intro-to-pyenv/](https://realpython.com/intro-to-pyenv/)
+- install nvm [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+
+
+### Software
+
+_Databases_
+- Beekeeper Studio [https://www.beekeeperstudio.io/](https://www.beekeeperstudio.io/)
+- Table Plus [https://tableplus.com/](https://tableplus.com/)
+
+_misc_
+- duet (screen mirroring)
+- mind node
+- diff merge
+- kap (gif creator) [https://getkap.co/](https://getkap.co/)
