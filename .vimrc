@@ -9,6 +9,14 @@ set encoding=UTF-8
 
 set hlsearch
 
+" width of tab character
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+
+" when this option is enabled, vim will use spaces instead of tabs
+set expandtab
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()

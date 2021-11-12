@@ -12,6 +12,10 @@ https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-exp
 
 ![homebrew](/images/brew.png)
 
+or minimum required:
+
+![brew](/images/brew_2.png)
+
 once zsh installed, to open z shell every time terminal is open:
 
 create `~/.bash_profile`
@@ -61,9 +65,19 @@ echo 'exec $(which zsh) -l' >> ~/.bash_profile
 
 [https://youtrack.jetbrains.com/issue/JBR-1776](https://youtrack.jetbrains.com/issue/JBR-1776)
 
+**NOTE:** remember to remove all _Oblique_ fonts from victor mono so IntelliJ can render it correctly without changing anything else.
+
+### iTerm settings for victor mono
+
+![iTerm](/images/iterm_config.png)
+
 ### IntelliJ based IDE plugins
 
-![IntelliJ Plugins](/images/intellij_plugins.png)
+![IntelliJ Plugins](/images/intellij_plugins_updated.png)
+
+### Visual Studio Code plugins
+
+![VS Code Plugins](/images/vs_code_plugins.png)
 
 ### Vim Cheatsheet
 
