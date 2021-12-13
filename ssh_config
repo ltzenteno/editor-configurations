@@ -1,0 +1,17 @@
+# this is the ~/.ssh/config file with multiple git accounts
+
+# Work GitHub account
+Host github.com
+HostName github.com
+User git
+AddKeysToAgent yes
+UseKeychain yes
+IdentityFile ~/.ssh/id_rsa
+
+# Personal GitHub account
+Host github.com-personal
+HostName github.com
+User git
+AddKeysToAgent yes
+UseKeychain yes
+IdentityFile ~/.ssh/id_rsa_personal
