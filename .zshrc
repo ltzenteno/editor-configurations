@@ -70,7 +70,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting docker docker-compose)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -126,20 +126,22 @@ SPACESHIP_USER_SHOW="true"
 
 ### the following are post installs (they won't be in a fresh install)
 
-# LLPPATH
-export LLPPATH="/Users/ltzenteno/Documents/workspace/truelogic/llp-local"
+# functions to set git account and move to the required dir (used instead of aliases)
+personal() {
+  git config --global user.email \"ltzenteno@gmail.com\" && ssh-add -D && ssh-add ~/.ssh/id_rsa
+  echo "Moving to personal dir"
+  cd /Users/ltzenteno/Documents/workspace/personal/
+}
 
-# ALIASES
-alias leaf="cd /Users/ltzenteno/Documents/workspace/truelogic/llp-local/applications/leaflink"
-alias tec="cd /Users/ltzenteno/Documents/workspace/itesm"
+pocket() {
+  git config --global user.email \"luis.zenteno@pocketmade.com\" && ssh-add -D && ssh-add ~/.ssh/id_rsa_tl
+  echo "Moving to PM dir"
+  cd /Users/ltzenteno/Documents/workspace/pocketmade/
+}
 
-alias set-ll="git config --global user.email \"lzenteno@truelogic.io\" && ssh-add -D && ssh-add ~/.ssh/id_rsa"
-alias set-me="git config --global user.email \"ltzenteno@gmail.com\" && ssh-add -D && ssh-add ~/.ssh/id_rsa_personal"
-
-# pyenv
-export PATH="/Users/ltzenteno/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# ALIASES (don't really need them since I'm using the functions above instead of these)
+alias set-me="git config --global user.email \"ltzenteno@gmail.com\" && ssh-add -D && ssh-add ~/.ssh/id_rsa"
+alias set-pm="git config --global user.email \"luis.zenteno@pocketmade.com\" && ssh-add -D && ssh-add ~/.ssh/id_rsa_tl"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
@@ -148,3 +150,4 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
