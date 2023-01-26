@@ -30,7 +30,7 @@ echo 'exec $(which zsh) -l' >> ~/.bash_profile
 
 3. Install [Spaceship theme](https://denysdovhan.com/spaceship-prompt/)
 
-4. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md), also check [https://gist.github.com/dogrocker/1efb8fd9427779c827058f873b94df95](https://gist.github.com/dogrocker/1efb8fd9427779c827058f873b94df95) to install autosuggestions as well
+4. Install zsh-autosuggestions and zsh-syntax-highlighting, you must install it for **oh my zsh option** using `git clone` like the following: [https://gist.github.com/dogrocker/1efb8fd9427779c827058f873b94df95](https://gist.github.com/dogrocker/1efb8fd9427779c827058f873b94df95) 
 
 5. Copy `.tmux.conf` in home dir
 
