@@ -37,11 +37,13 @@ echo 'exec $(which zsh) -l' >> ~/.bash_profile
 6. Install [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 7. Copy `.vimrc` in home dir
-  * download [gruvbox_material](https://vimcolors.com/991/gruvbox-material/dark) and copy to `~/.vim/colors/gruvbox-material.vim`
+  * download [dogrun](https://github.com/wadackel/vim-dogrun/blob/main/colors/dogrun.vim) and copy to `~/.vim/bundle/vim-colorschemes/colors/dogrun.vim`
 
 8. Copy `.zshrc` in home dir and update paths
 
-9. Install [Nerd Font](https://www.nerdfonts.com/font-downloads), for example Monoid
+9. Download [Victor Mono](https://rubjo.github.io/victor-mono/), install the `.ttf` files (except the obliques).
+
+And Fira Code Nerd Font [Nerd Font](https://www.nerdfonts.com/font-downloads) (this one supports terminal icons!)
 
 ### Configure iTerm2 fonts and color
 
