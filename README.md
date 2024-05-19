@@ -81,6 +81,263 @@ And Fira Code Nerd Font [Nerd Font](https://www.nerdfonts.com/font-downloads) (t
 
 ![VS Code Plugins](/images/vs_code_plugins.png)
 
+### Visual Studio Code editor token settings
+
+```
+    "editor.fontFamily": "Victor Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.control.import",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword.control.from",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "support.type",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.control.export",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "keyword.control.default",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "storage.type.interface.ts",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "storage.type.class.ts",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "storage.modifier.ts",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "storage.type.ts",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "storage.type.tsx",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "entity.name.function.ts",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.function.member",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "entity.name.function.tsx",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "new.expr.ts",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.operator.new.tsx",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "constant.language.undefined.ts",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword.control.trycatch.ts",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.type.ts",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.control.flow.ts",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "keyword.control.flow.tsx",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "storage.modifier.async.tsx",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "storage.modifier.async.ts",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "keyword.operator.new.ts",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name.tsx",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "meta.tag.tsx",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "string.quoted.double.tsx",
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "meta.jsx.children.tsx",
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "support.class.component.tsx",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.type.tsx",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "support.type.builtin.tsx",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "storage.type.js",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "entity.name.function.js",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name.js.jsx",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "meta.tag.js.jsx",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "string.quoted.double.js.jsx",
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "meta.jsx.children.js.jsx",
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "support.class.component.js.jsx",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.type.js.jsx",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "support.type.builtin.js.jsx",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword.control.flow.js.jsx",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "scope": "storage.modifier.async.js.jsx",
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            }
+        ]
+    },
+```
+
 ### Vim Cheatsheet
 
 ![Cheatsheet](/images/vim-cheatsheet.jpg)
